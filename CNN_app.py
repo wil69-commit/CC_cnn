@@ -52,5 +52,3 @@ else:
     # Si le score est proche de 1, c'est la classe 'not fractured'
     st.success(f"✅ **Résultat : PAS DE FRACTURE** (Confiance : {score:.2%})")
 
-
-=======

@@ -52,6 +52,7 @@ else:
     # Si le score est proche de 1, c'est la classe 'not fractured'
     st.success(f"✅ **Résultat : PAS DE FRACTURE** (Confiance : {score:.2%})")
 
+
 =======
 import streamlit as st
 import tensorflow as tf
@@ -106,5 +107,4 @@ else:
     # Si le score est proche de 1, c'est la classe 'not fractured'
     st.success(f"✅ **Résultat : PAS DE FRACTURE** (Confiance : {score:.2%})")
 
->>>>>>> 58687e4af5d6ecc1a13704d34e5e0db729f562fc
 st.info("Note : Cette application est un outil d'aide à la décision et ne remplace pas l'avis d'un radiologue.")

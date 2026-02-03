@@ -13,7 +13,7 @@ def load_my_model():
 
 model = load_my_model()
 
-st.title("🏥 Diagnostic d'Imagerie Médicale")
+st.title("🏥 Diagnostic d'Imagerie Médicale VGG16")
 st.subheader("Classification de fractures par Deep Learning")
 st.info("Note : Cet outil est une démonstration technologique et ne remplace pas un avis médical.")
 

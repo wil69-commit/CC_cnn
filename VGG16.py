@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Configuration de la page
-st.set_page_config(page_title="Détecteur de Fractures", layout="centered")
+st.set_page_config(page_title="Détecteur de Fractures VGG16", layout="centered")
 
 @st.cache_resource
 def load_my_model():
